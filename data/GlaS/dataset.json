@@ -1,0 +1,684 @@
+{
+    "name": "GlaS",
+    "description": "Colorectal gland segmentation",
+    "tensorImageSize": "2D",
+    "reference": "GlaS Challenge",
+    "labels": {
+        "0": "background",
+        "1": "gland"
+    },
+    "maskEncoding": {
+        "format": "instance IDs",
+        "backgroundPixelValue": 0,
+        "foregroundRule": "pixel > 0"
+    },
+    "numTraining": 116,
+    "numValidation": 16,
+    "numTest": 33,
+    "training": [
+        {
+            "image": "train/images/train_66.bmp",
+            "label": "train/masks/train_66_anno.bmp"
+        },
+        {
+            "image": "train/images/train_62.bmp",
+            "label": "train/masks/train_62_anno.bmp"
+        },
+        {
+            "image": "train/images/train_45.bmp",
+            "label": "train/masks/train_45_anno.bmp"
+        },
+        {
+            "image": "train/images/train_37.bmp",
+            "label": "train/masks/train_37_anno.bmp"
+        },
+        {
+            "image": "train/images/train_54.bmp",
+            "label": "train/masks/train_54_anno.bmp"
+        },
+        {
+            "image": "train/images/train_7.bmp",
+            "label": "train/masks/train_7_anno.bmp"
+        },
+        {
+            "image": "train/images/train_82.bmp",
+            "label": "train/masks/train_82_anno.bmp"
+        },
+        {
+            "image": "train/images/train_27.bmp",
+            "label": "train/masks/train_27_anno.bmp"
+        },
+        {
+            "image": "train/images/train_71.bmp",
+            "label": "train/masks/train_71_anno.bmp"
+        },
+        {
+            "image": "train/images/train_33.bmp",
+            "label": "train/masks/train_33_anno.bmp"
+        },
+        {
+            "image": "train/images/train_76.bmp",
+            "label": "train/masks/train_76_anno.bmp"
+        },
+        {
+            "image": "train/images/train_63.bmp",
+            "label": "train/masks/train_63_anno.bmp"
+        },
+        {
+            "image": "train/images/train_28.bmp",
+            "label": "train/masks/train_28_anno.bmp"
+        },
+        {
+            "image": "train/images/train_60.bmp",
+            "label": "train/masks/train_60_anno.bmp"
+        },
+        {
+            "image": "train/images/train_23.bmp",
+            "label": "train/masks/train_23_anno.bmp"
+        },
+        {
+            "image": "train/images/train_4.bmp",
+            "label": "train/masks/train_4_anno.bmp"
+        },
+        {
+            "image": "train/images/train_74.bmp",
+            "label": "train/masks/train_74_anno.bmp"
+        },
+        {
+            "image": "train/images/train_85.bmp",
+            "label": "train/masks/train_85_anno.bmp"
+        },
+        {
+            "image": "train/images/train_17.bmp",
+            "label": "train/masks/train_17_anno.bmp"
+        },
+        {
+            "image": "train/images/train_20.bmp",
+            "label": "train/masks/train_20_anno.bmp"
+        },
+        {
+            "image": "train/images/train_70.bmp",
+            "label": "train/masks/train_70_anno.bmp"
+        },
+        {
+            "image": "train/images/train_42.bmp",
+            "label": "train/masks/train_42_anno.bmp"
+        },
+        {
+            "image": "train/images/train_69.bmp",
+            "label": "train/masks/train_69_anno.bmp"
+        },
+        {
+            "image": "train/images/train_55.bmp",
+            "label": "train/masks/train_55_anno.bmp"
+        },
+        {
+            "image": "train/images/train_9.bmp",
+            "label": "train/masks/train_9_anno.bmp"
+        },
+        {
+            "image": "train/images/train_52.bmp",
+            "label": "train/masks/train_52_anno.bmp"
+        },
+        {
+            "image": "train/images/train_10.bmp",
+            "label": "train/masks/train_10_anno.bmp"
+        },
+        {
+            "image": "train/images/train_46.bmp",
+            "label": "train/masks/train_46_anno.bmp"
+        },
+        {
+            "image": "train/images/train_47.bmp",
+            "label": "train/masks/train_47_anno.bmp"
+        },
+        {
+            "image": "train/images/train_49.bmp",
+            "label": "train/masks/train_49_anno.bmp"
+        },
+        {
+            "image": "train/images/train_39.bmp",
+            "label": "train/masks/train_39_anno.bmp"
+        },
+        {
+            "image": "train/images/train_30.bmp",
+            "label": "train/masks/train_30_anno.bmp"
+        },
+        {
+            "image": "train/images/train_26.bmp",
+            "label": "train/masks/train_26_anno.bmp"
+        },
+        {
+            "image": "train/images/train_50.bmp",
+            "label": "train/masks/train_50_anno.bmp"
+        },
+        {
+            "image": "train/images/train_77.bmp",
+            "label": "train/masks/train_77_anno.bmp"
+        },
+        {
+            "image": "train/images/train_16.bmp",
+            "label": "train/masks/train_16_anno.bmp"
+        },
+        {
+            "image": "train/images/train_40.bmp",
+            "label": "train/masks/train_40_anno.bmp"
+        },
+        {
+            "image": "train/images/train_79.bmp",
+            "label": "train/masks/train_79_anno.bmp"
+        },
+        {
+            "image": "train/images/train_11.bmp",
+            "label": "train/masks/train_11_anno.bmp"
+        },
+        {
+            "image": "train/images/train_24.bmp",
+            "label": "train/masks/train_24_anno.bmp"
+        },
+        {
+            "image": "train/images/train_44.bmp",
+            "label": "train/masks/train_44_anno.bmp"
+        },
+        {
+            "image": "train/images/train_48.bmp",
+            "label": "train/masks/train_48_anno.bmp"
+        },
+        {
+            "image": "train/images/train_3.bmp",
+            "label": "train/masks/train_3_anno.bmp"
+        },
+        {
+            "image": "train/images/train_51.bmp",
+            "label": "train/masks/train_51_anno.bmp"
+        },
+        {
+            "image": "train/images/train_31.bmp",
+            "label": "train/masks/train_31_anno.bmp"
+        },
+        {
+            "image": "train/images/train_14.bmp",
+            "label": "train/masks/train_14_anno.bmp"
+        },
+        {
+            "image": "train/images/train_15.bmp",
+            "label": "train/masks/train_15_anno.bmp"
+        },
+        {
+            "image": "train/images/train_57.bmp",
+            "label": "train/masks/train_57_anno.bmp"
+        },
+        {
+            "image": "train/images/train_67.bmp",
+            "label": "train/masks/train_67_anno.bmp"
+        },
+        {
+            "image": "train/images/train_8.bmp",
+            "label": "train/masks/train_8_anno.bmp"
+        },
+        {
+            "image": "train/images/train_18.bmp",
+            "label": "train/masks/train_18_anno.bmp"
+        },
+        {
+            "image": "train/images/train_65.bmp",
+            "label": "train/masks/train_65_anno.bmp"
+        },
+        {
+            "image": "train/images/train_29.bmp",
+            "label": "train/masks/train_29_anno.bmp"
+        },
+        {
+            "image": "train/images/train_73.bmp",
+            "label": "train/masks/train_73_anno.bmp"
+        },
+        {
+            "image": "train/images/train_5.bmp",
+            "label": "train/masks/train_5_anno.bmp"
+        },
+        {
+            "image": "train/images/train_19.bmp",
+            "label": "train/masks/train_19_anno.bmp"
+        },
+        {
+            "image": "train/images/train_64.bmp",
+            "label": "train/masks/train_64_anno.bmp"
+        },
+        {
+            "image": "train/images/train_53.bmp",
+            "label": "train/masks/train_53_anno.bmp"
+        },
+        {
+            "image": "train/images/train_1.bmp",
+            "label": "train/masks/train_1_anno.bmp"
+        },
+        {
+            "image": "train/images/train_6.bmp",
+            "label": "train/masks/train_6_anno.bmp"
+        },
+        {
+            "image": "train/images/train_56.bmp",
+            "label": "train/masks/train_56_anno.bmp"
+        },
+        {
+            "image": "train/images/train_80.bmp",
+            "label": "train/masks/train_80_anno.bmp"
+        },
+        {
+            "image": "train/images/train_43.bmp",
+            "label": "train/masks/train_43_anno.bmp"
+        },
+        {
+            "image": "train/images/train_61.bmp",
+            "label": "train/masks/train_61_anno.bmp"
+        },
+        {
+            "image": "train/images/train_81.bmp",
+            "label": "train/masks/train_81_anno.bmp"
+        },
+        {
+            "image": "train/images/train_58.bmp",
+            "label": "train/masks/train_58_anno.bmp"
+        },
+        {
+            "image": "train/images/train_32.bmp",
+            "label": "train/masks/train_32_anno.bmp"
+        },
+        {
+            "image": "train/images/train_75.bmp",
+            "label": "train/masks/train_75_anno.bmp"
+        },
+        {
+            "image": "train/images/train_68.bmp",
+            "label": "train/masks/train_68_anno.bmp"
+        },
+        {
+            "image": "train/images/train_36.bmp",
+            "label": "train/masks/train_36_anno.bmp"
+        },
+        {
+            "image": "train/images/train_34.bmp",
+            "label": "train/masks/train_34_anno.bmp"
+        },
+        {
+            "image": "train/images/train_78.bmp",
+            "label": "train/masks/train_78_anno.bmp"
+        },
+        {
+            "image": "train/images/train_84.bmp",
+            "label": "train/masks/train_84_anno.bmp"
+        },
+        {
+            "image": "train/images/train_13.bmp",
+            "label": "train/masks/train_13_anno.bmp"
+        },
+        {
+            "image": "train/images/train_59.bmp",
+            "label": "train/masks/train_59_anno.bmp"
+        },
+        {
+            "image": "train/images/train_2.bmp",
+            "label": "train/masks/train_2_anno.bmp"
+        },
+        {
+            "image": "train/images/train_72.bmp",
+            "label": "train/masks/train_72_anno.bmp"
+        },
+        {
+            "image": "train/images/train_21.bmp",
+            "label": "train/masks/train_21_anno.bmp"
+        },
+        {
+            "image": "train/images/train_25.bmp",
+            "label": "train/masks/train_25_anno.bmp"
+        },
+        {
+            "image": "train/images/train_35.bmp",
+            "label": "train/masks/train_35_anno.bmp"
+        },
+        {
+            "image": "train/images/train_38.bmp",
+            "label": "train/masks/train_38_anno.bmp"
+        },
+        {
+            "image": "train/images/train_41.bmp",
+            "label": "train/masks/train_41_anno.bmp"
+        },
+        {
+            "image": "train/images/train_12.bmp",
+            "label": "train/masks/train_12_anno.bmp"
+        },
+        {
+            "image": "train/images/train_22.bmp",
+            "label": "train/masks/train_22_anno.bmp"
+        },
+        {
+            "image": "train/images/train_83.bmp",
+            "label": "train/masks/train_83_anno.bmp"
+        },
+        {
+            "image": "train/images/testB_11.bmp",
+            "label": "train/masks/testB_11_anno.bmp"
+        },
+        {
+            "image": "train/images/testA_45.bmp",
+            "label": "train/masks/testA_45_anno.bmp"
+        },
+        {
+            "image": "train/images/testA_10.bmp",
+            "label": "train/masks/testA_10_anno.bmp"
+        },
+        {
+            "image": "train/images/testA_2.bmp",
+            "label": "train/masks/testA_2_anno.bmp"
+        },
+        {
+            "image": "train/images/testA_54.bmp",
+            "label": "train/masks/testA_54_anno.bmp"
+        },
+        {
+            "image": "train/images/testB_14.bmp",
+            "label": "train/masks/testB_14_anno.bmp"
+        },
+        {
+            "image": "train/images/testA_53.bmp",
+            "label": "train/masks/testA_53_anno.bmp"
+        },
+        {
+            "image": "train/images/testA_58.bmp",
+            "label": "train/masks/testA_58_anno.bmp"
+        },
+        {
+            "image": "train/images/testA_3.bmp",
+            "label": "train/masks/testA_3_anno.bmp"
+        },
+        {
+            "image": "train/images/testA_35.bmp",
+            "label": "train/masks/testA_35_anno.bmp"
+        },
+        {
+            "image": "train/images/testA_29.bmp",
+            "label": "train/masks/testA_29_anno.bmp"
+        },
+        {
+            "image": "train/images/testA_57.bmp",
+            "label": "train/masks/testA_57_anno.bmp"
+        },
+        {
+            "image": "train/images/testA_20.bmp",
+            "label": "train/masks/testA_20_anno.bmp"
+        },
+        {
+            "image": "train/images/testA_27.bmp",
+            "label": "train/masks/testA_27_anno.bmp"
+        },
+        {
+            "image": "train/images/testA_11.bmp",
+            "label": "train/masks/testA_11_anno.bmp"
+        },
+        {
+            "image": "train/images/testA_15.bmp",
+            "label": "train/masks/testA_15_anno.bmp"
+        },
+        {
+            "image": "train/images/testA_33.bmp",
+            "label": "train/masks/testA_33_anno.bmp"
+        },
+        {
+            "image": "train/images/testB_9.bmp",
+            "label": "train/masks/testB_9_anno.bmp"
+        },
+        {
+            "image": "train/images/testA_42.bmp",
+            "label": "train/masks/testA_42_anno.bmp"
+        },
+        {
+            "image": "train/images/testA_37.bmp",
+            "label": "train/masks/testA_37_anno.bmp"
+        },
+        {
+            "image": "train/images/testA_9.bmp",
+            "label": "train/masks/testA_9_anno.bmp"
+        },
+        {
+            "image": "train/images/testB_16.bmp",
+            "label": "train/masks/testB_16_anno.bmp"
+        },
+        {
+            "image": "train/images/testB_1.bmp",
+            "label": "train/masks/testB_1_anno.bmp"
+        },
+        {
+            "image": "train/images/testB_4.bmp",
+            "label": "train/masks/testB_4_anno.bmp"
+        },
+        {
+            "image": "train/images/testA_7.bmp",
+            "label": "train/masks/testA_7_anno.bmp"
+        },
+        {
+            "image": "train/images/testA_21.bmp",
+            "label": "train/masks/testA_21_anno.bmp"
+        },
+        {
+            "image": "train/images/testA_5.bmp",
+            "label": "train/masks/testA_5_anno.bmp"
+        },
+        {
+            "image": "train/images/testA_51.bmp",
+            "label": "train/masks/testA_51_anno.bmp"
+        },
+        {
+            "image": "train/images/testA_48.bmp",
+            "label": "train/masks/testA_48_anno.bmp"
+        },
+        {
+            "image": "train/images/testA_28.bmp",
+            "label": "train/masks/testA_28_anno.bmp"
+        },
+        {
+            "image": "train/images/testA_59.bmp",
+            "label": "train/masks/testA_59_anno.bmp"
+        }
+    ],
+    "validation": [
+        {
+            "image": "validate/images/testA_4.bmp",
+            "label": "validate/masks/testA_4_anno.bmp"
+        },
+        {
+            "image": "validate/images/testA_26.bmp",
+            "label": "validate/masks/testA_26_anno.bmp"
+        },
+        {
+            "image": "validate/images/testA_8.bmp",
+            "label": "validate/masks/testA_8_anno.bmp"
+        },
+        {
+            "image": "validate/images/testA_55.bmp",
+            "label": "validate/masks/testA_55_anno.bmp"
+        },
+        {
+            "image": "validate/images/testB_12.bmp",
+            "label": "validate/masks/testB_12_anno.bmp"
+        },
+        {
+            "image": "validate/images/testB_2.bmp",
+            "label": "validate/masks/testB_2_anno.bmp"
+        },
+        {
+            "image": "validate/images/testB_5.bmp",
+            "label": "validate/masks/testB_5_anno.bmp"
+        },
+        {
+            "image": "validate/images/testA_34.bmp",
+            "label": "validate/masks/testA_34_anno.bmp"
+        },
+        {
+            "image": "validate/images/testA_17.bmp",
+            "label": "validate/masks/testA_17_anno.bmp"
+        },
+        {
+            "image": "validate/images/testA_40.bmp",
+            "label": "validate/masks/testA_40_anno.bmp"
+        },
+        {
+            "image": "validate/images/testA_56.bmp",
+            "label": "validate/masks/testA_56_anno.bmp"
+        },
+        {
+            "image": "validate/images/testA_46.bmp",
+            "label": "validate/masks/testA_46_anno.bmp"
+        },
+        {
+            "image": "validate/images/testA_13.bmp",
+            "label": "validate/masks/testA_13_anno.bmp"
+        },
+        {
+            "image": "validate/images/testA_36.bmp",
+            "label": "validate/masks/testA_36_anno.bmp"
+        },
+        {
+            "image": "validate/images/testA_16.bmp",
+            "label": "validate/masks/testA_16_anno.bmp"
+        },
+        {
+            "image": "validate/images/testA_47.bmp",
+            "label": "validate/masks/testA_47_anno.bmp"
+        }
+    ],
+    "test": [
+        {
+            "image": "test/images/testB_17.bmp",
+            "label": "test/masks/testB_17_anno.bmp"
+        },
+        {
+            "image": "test/images/testA_50.bmp",
+            "label": "test/masks/testA_50_anno.bmp"
+        },
+        {
+            "image": "test/images/testA_1.bmp",
+            "label": "test/masks/testA_1_anno.bmp"
+        },
+        {
+            "image": "test/images/testB_15.bmp",
+            "label": "test/masks/testB_15_anno.bmp"
+        },
+        {
+            "image": "test/images/testB_13.bmp",
+            "label": "test/masks/testB_13_anno.bmp"
+        },
+        {
+            "image": "test/images/testB_7.bmp",
+            "label": "test/masks/testB_7_anno.bmp"
+        },
+        {
+            "image": "test/images/testA_49.bmp",
+            "label": "test/masks/testA_49_anno.bmp"
+        },
+        {
+            "image": "test/images/testA_31.bmp",
+            "label": "test/masks/testA_31_anno.bmp"
+        },
+        {
+            "image": "test/images/testB_6.bmp",
+            "label": "test/masks/testB_6_anno.bmp"
+        },
+        {
+            "image": "test/images/testA_44.bmp",
+            "label": "test/masks/testA_44_anno.bmp"
+        },
+        {
+            "image": "test/images/testA_6.bmp",
+            "label": "test/masks/testA_6_anno.bmp"
+        },
+        {
+            "image": "test/images/testA_19.bmp",
+            "label": "test/masks/testA_19_anno.bmp"
+        },
+        {
+            "image": "test/images/testB_19.bmp",
+            "label": "test/masks/testB_19_anno.bmp"
+        },
+        {
+            "image": "test/images/testA_18.bmp",
+            "label": "test/masks/testA_18_anno.bmp"
+        },
+        {
+            "image": "test/images/testB_8.bmp",
+            "label": "test/masks/testB_8_anno.bmp"
+        },
+        {
+            "image": "test/images/testA_12.bmp",
+            "label": "test/masks/testA_12_anno.bmp"
+        },
+        {
+            "image": "test/images/testA_14.bmp",
+            "label": "test/masks/testA_14_anno.bmp"
+        },
+        {
+            "image": "test/images/testA_38.bmp",
+            "label": "test/masks/testA_38_anno.bmp"
+        },
+        {
+            "image": "test/images/testA_39.bmp",
+            "label": "test/masks/testA_39_anno.bmp"
+        },
+        {
+            "image": "test/images/testB_20.bmp",
+            "label": "test/masks/testB_20_anno.bmp"
+        },
+        {
+            "image": "test/images/testA_22.bmp",
+            "label": "test/masks/testA_22_anno.bmp"
+        },
+        {
+            "image": "test/images/testA_30.bmp",
+            "label": "test/masks/testA_30_anno.bmp"
+        },
+        {
+            "image": "test/images/testA_32.bmp",
+            "label": "test/masks/testA_32_anno.bmp"
+        },
+        {
+            "image": "test/images/testA_60.bmp",
+            "label": "test/masks/testA_60_anno.bmp"
+        },
+        {
+            "image": "test/images/testB_18.bmp",
+            "label": "test/masks/testB_18_anno.bmp"
+        },
+        {
+            "image": "test/images/testA_43.bmp",
+            "label": "test/masks/testA_43_anno.bmp"
+        },
+        {
+            "image": "test/images/testB_10.bmp",
+            "label": "test/masks/testB_10_anno.bmp"
+        },
+        {
+            "image": "test/images/testA_24.bmp",
+            "label": "test/masks/testA_24_anno.bmp"
+        },
+        {
+            "image": "test/images/testB_3.bmp",
+            "label": "test/masks/testB_3_anno.bmp"
+        },
+        {
+            "image": "test/images/testA_41.bmp",
+            "label": "test/masks/testA_41_anno.bmp"
+        },
+        {
+            "image": "test/images/testA_52.bmp",
+            "label": "test/masks/testA_52_anno.bmp"
+        },
+        {
+            "image": "test/images/testA_23.bmp",
+            "label": "test/masks/testA_23_anno.bmp"
+        },
+        {
+            "image": "test/images/testA_25.bmp",
+            "label": "test/masks/testA_25_anno.bmp"
+        }
+    ]
+}
